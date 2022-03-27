@@ -1,32 +1,40 @@
 html {
     font-family: sans-serif;
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    
 }
 .navbar-brand {
-    color: #000;
+    color: rgb(0, 0, 0) !important;
+    font-size: 30px;
 
+}
+
+.borders {
+    border: 2px solid #000 !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .navbar-default,
 .navbar-toggle {
     background-color: #a09d9d;
     text-align: center;
+    color: #000 !important;
 }
 
 h1 {
     margin-top: 20px;
+    color: #000 !important;
 }
 
 h3 {
     text-align: center;
-    margin-top: ;
+    
 }
 
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 0;
     margin-bottom: 0;
 }
