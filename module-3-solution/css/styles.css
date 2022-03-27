@@ -1,0 +1,65 @@
+html {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.navbar-brand {
+    color: #000;
+
+}
+
+.navbar-default,
+.navbar-toggle {
+    background-color: #a09d9d;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: ;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.bg-1 {
+    background-color: #ADADAD;
+    color: #000;
+    padding: 10px;
+    margin-top: auto;
+}
+
+/********** Desktop **********/
+
+@media screen and (max-width: 1200px) {
+    .bg-1 {
+        margin-top: 80px;
+    }
+    
+    /********** Tablet **********/
+
+@media screen and (max-width: 992px) {
+    .bg-1 {
+        margin-top: 80px;
+    }
+    
+    /********** Mobile **********/
+
+@media screen and (max-width: 768px) {
+    .bg-1 {
+        margin-top: 80px;
+    }
+}
+
+}
+
+}
